@@ -31,3 +31,4 @@ fig4 = px.scatter(
     size='size'  # The size of points based on the size of the group
 )
 fig4.show()
+st.plotly_chart(fig4)
